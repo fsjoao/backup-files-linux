@@ -1,0 +1,14 @@
+/var/log/hourly-backups {
+
+daily
+missingok
+rotate 5
+dateext
+compress
+size 20M
+copytruncate
+notifempty
+nomail
+noolddir
+
+}
